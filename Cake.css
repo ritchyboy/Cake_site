@@ -1,0 +1,161 @@
+
+*{
+    overflow: auto;
+}
+body
+{
+background-color: cadetblue;
+font-family: Arial;
+margin:0;
+}
+h1
+{
+text-align:center;
+margin-top: 12px;
+margin-bottom:12px;
+
+}
+p.recette
+{
+    background-color: black;
+    color: white;
+    display:inline-block;
+    padding:30px 30px 30px 30px;
+    margin-bottom:-10px;
+    font-weight: bold;
+    font-size:16px;
+    margin-top: -40px;
+}
+p.description
+{
+margin-bottom:0px;
+margin-top:0px;
+}
+div.contenue
+{
+background-color: white;
+margin: 60px 10% 80px 10%;
+padding:0px 30px 30px 30px;
+min-width: 350px;
+box-shadow: 0px 0px 8px 8px rgb(0.0,0.0,0.1);
+overflow: visible;
+}
+p.description
+{
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    max-width: 400px;
+    font-style: bolder;
+}
+.description
+{
+   text-align: center;
+   width:100%;
+overflow: visible;
+
+}
+div.separateur
+{
+    width: 100px;
+    height: 1px;
+    background-color: black;
+    margin-left:auto;
+    margin-right:auto;
+}
+div.info
+{
+position: relative;
+
+}
+table.info
+{
+position: absolute;
+bottom: 0px;
+color:white;
+background-color:#6C829DC0;
+height: 80px;
+width:100%;
+
+}
+table.info td
+{
+text-align: center;
+font-size: 14px;
+vertical-align: top;
+}
+table.info th
+{
+font-size:16px;
+padding-bottom:4px;
+}
+img.info
+{
+    display:block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: lightgrey;
+}
+div.colonne
+{
+    width: 45%;
+    margin-top: 20px;
+}
+div.colonne1
+{
+display:inline-block;
+margin-right: 10px;
+}
+div.colonne2
+{
+float:right;
+}
+div.colonne h2
+{
+text-align: center;
+text-transform: uppercase;
+font-size: 15px;
+border-bottom:5px solid #6C829D;
+padding-bottom: 5px;
+}
+div.ingredients p
+{
+border: 1px solid lightgray;
+padding:10px;
+text-align: center;
+vertical-align: top;
+font-style: bolder;
+font-size: 14px;
+margin-top: 5px;
+margin-bottom: 0px;
+}
+table.preparation p.num
+{
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+width: 25px;
+height: 25px;
+border: 1px solid black ;
+border-radius: 50%;
+color:white;
+background-color:#6C829D;
+padding-top:4px;
+box-sizing: border-box;
+margin:0;
+}
+table.preparation td
+{
+vertical-align: top;
+}
+table.preparation td.pre
+{
+padding-left: 10px;
+padding-bottom: 10px;
+font-size: 14px;
+}
+table.preparation tr
+{
+min-height: 100px;
+}
